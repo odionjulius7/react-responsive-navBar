@@ -18,6 +18,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar__leftSide">
+//     the hidden id is the one that shows this on the mobile view
         <div className="navbar__links" id={showLinks ? "hidden" : ""}>
           <a href="home">Home</a>
           <a href="feedback">Feedback</a>
